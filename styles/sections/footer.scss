@@ -1,0 +1,40 @@
+.footer {
+	background-color: #141414;
+	color: #fff;
+	padding: 100px 30px;
+
+	span {
+		@include simple-text;
+		margin: 0;
+	}
+
+	a {
+		@include simple-text;
+		margin-bottom: 6px;
+		transition: all .3s ease;
+
+		&:hover {
+			color: lighten(#787878, 35%);
+		}
+	}
+
+	h3 {
+		@include simple-text;
+		color: lighten(#787878, 35%);
+	}
+
+	p {
+		@include simple-text;
+		margin: 0;
+	}
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+
+	.footer-cell {
+		display: flex;
+		flex-direction: column;
+	}
+}

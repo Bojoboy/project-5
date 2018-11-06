@@ -1,0 +1,66 @@
+@import 'normalize';
+@import 'utilities/font-mixins';
+
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	outline: 0;
+}
+
+img {
+	display: block;
+}
+
+ul li {
+	display: inline;
+	text-decoration: none;
+	padding: 0;
+}
+
+span {
+	display: block;
+}
+
+a {
+	// display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+input {
+	border: none;
+}
+
+textarea {
+	border: none;
+}
+
+.wrapper {
+	overflow: hidden;
+	height: 100%;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+@import 'sections/header';
+@import 'sections/about-us';
+@import 'sections/progress';
+@import 'sections/working-hours';
+@import 'sections/work-process';
+@import 'sections/company-skills';
+@import 'sections/slider';
+@import 'sections/clients';
+@import 'sections/form.scss';
+@import 'sections/footer';

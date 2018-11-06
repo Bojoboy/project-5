@@ -1,0 +1,23 @@
+.work-process-section {
+	padding: 100px 0;
+	text-align: center;
+}
+
+.work-process-content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	h3 {
+		@include heading-small;
+		margin-bottom: 33px;
+	}
+
+	p {
+		@include simple-text;
+	}
+}
+
+.video-container {
+	padding: 51px 0;	
+}

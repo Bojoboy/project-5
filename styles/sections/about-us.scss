@@ -1,0 +1,23 @@
+.about-us-section {
+	padding: 100px 0;
+	text-align: center;
+}
+
+.about-us-content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	h3 {
+		@include heading-small;
+	}
+
+	p {
+		@include simple-text;
+		margin-bottom: 22px;
+	}
+
+	.signature {
+		align-self: center;
+	}
+}

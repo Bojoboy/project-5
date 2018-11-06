@@ -1,0 +1,40 @@
+.working-hours-content {
+	background-color: #10c9c3;
+	padding: 100px 90px;
+	display: flex;
+	justify-content: space-around;
+
+	.fa {
+		color: #fff;
+		font-size: 35px;
+	}
+
+	span {
+		margin-bottom: 6px;
+		font-size: 16px;
+		color: #fff;
+	}
+
+	p {
+		@include small-text;
+		color: #fff;
+		text-transform: uppercase;
+	}
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid-item {
+	flex-basis: 25%;
+	height: 300px;
+	border: 1px solid #ddd;
+	transition: all 1s ease;
+
+	&:hover {
+		background-color: #ddd;
+		cursor: pointer;
+	}
+}

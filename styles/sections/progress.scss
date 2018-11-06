@@ -1,0 +1,56 @@
+.progress-section {
+
+}
+
+.progress-content {
+	display: flex;
+}
+
+.progress-content-info {
+	padding: 160px 36px 160px 30px;
+	width: 50%;
+
+	h3 {
+		@include heading-small;
+		margin-bottom: 33px;
+	}
+
+	span {
+		@include simple-text;
+		margin-bottom: 17px;
+	}
+
+	.progress-bar {
+		margin-bottom: 39px;
+	}
+
+	.progress-bar {
+		width: 100%;
+		height: 4px;
+		background-color: #d8d8d8;
+	}
+
+	.progress-bar-ui>div{
+		width: 75%;
+		height: 4px;
+		background-color: #10c9c3;
+	}
+
+	.progress-bar-web>div{
+		width: 90%;
+		height: 4px;
+		background-color: #10c9c3;
+	}
+
+	.progress-bar-marketing>div{
+		width: 65%;
+		height: 4px;
+		background-color: #10c9c3;
+	}
+}
+
+.progress-content-description {
+	width: 50%;
+	background-color: #ddd;
+}
+

@@ -1,0 +1,16 @@
+.clients-content {
+	padding: 64px 0 162px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.client-logo-cell {
+	img {
+		opacity: 0.8;
+		transition: all 1s ease;
+	}
+
+	img:hover {
+		opacity: 1;
+	}
+}
